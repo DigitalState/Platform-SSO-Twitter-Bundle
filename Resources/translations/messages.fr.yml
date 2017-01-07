@@ -1,0 +1,7 @@
+ds:
+    sso_twitter:
+        system_configuration:
+            groups:
+                sso_twitter_settings: Authentification unique Twitter
+            fields:
+                enable_sso: Activer

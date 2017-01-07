@@ -1,0 +1,7 @@
+ds:
+    sso_twitter:
+        system_configuration:
+            groups:
+                sso_twitter_settings: Twitter Single Sign-On
+            fields:
+                enable_sso: Enable

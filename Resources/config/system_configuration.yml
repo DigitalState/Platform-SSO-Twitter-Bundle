@@ -1,0 +1,25 @@
+oro_system_configuration:
+    groups:
+        ds_sso_twitter_settings:
+            title: ds.sso_twitter.system_configuration.groups.sso_twitter_settings
+    fields:
+        ds_sso_twitter.enable_sso:
+            data_type: boolean
+            type: oro_config_checkbox
+            options:
+                label: ds.sso_twitter.system_configuration.fields.enable_sso
+                tooltip: ~
+                required: false
+                resettable: false
+            priority: 1
+    tree:
+        system_configuration:
+            platform:
+                children:
+                    integrations:
+                        children:
+                            ds_twitter:
+                                children:
+                                    ds_sso_twitter_settings:
+                                        children:
+                                            - ds_sso_twitter.enable_sso
