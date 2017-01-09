@@ -18,7 +18,7 @@
         "digitalstate/platform-twitter-bundle": "dev-master"
     },
     "autoload": {
-        "psr-0": { "Ds\\Bundle\\SSOTwitterBundle": "" }
+        "psr-4": { "Ds\\Bundle\\SSOTwitterBundle\\": "" }
     },
     "minimum-stability": "dev",
     "prefer-stable": true,
