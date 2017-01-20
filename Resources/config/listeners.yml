@@ -1,5 +1,0 @@
-services:
-    ds.ssotwitter.event.listener.user_email_change:
-        class: Ds\Bundle\SSOTwitterBundle\Event\Listener\UserEmailChangeListener
-        tags:
-            - { name: doctrine.event_listener, event: preUpdate }
