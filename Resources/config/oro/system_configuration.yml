@@ -1,4 +1,4 @@
-oro_system_configuration:
+system_configuration:
     groups:
         ds_sso_twitter_settings:
             title: ds.sso_twitter.system_configuration.groups.sso_twitter_settings
